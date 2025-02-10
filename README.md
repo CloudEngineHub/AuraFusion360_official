@@ -48,7 +48,7 @@
 * **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
 
 ## Citation
-If you find our dataset, evaluation results, or code useful, please cite this paper and give us a star⭐️
+If you find our dataset, evaluation results, or code useful, please cite this paper and give us a star⭐️.
 ```BibTex
 @misc{wu2025aurafusion360augmentedunseenregion,
       title={AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360{\deg} Unbounded Scene Inpainting}, 
