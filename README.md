@@ -49,7 +49,7 @@
 
 ## Citation
 If you find our dataset, evaluation results, or code useful, please cite this paper and give us a star⭐️
-＇＇＇
+```BibTex
 @misc{wu2025aurafusion360augmentedunseenregion,
       title={AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360{\deg} Unbounded Scene Inpainting}, 
       author={Chung-Ho Wu and Yang-Jung Chen and Ying-Huan Chen and Jie-Ying Lee and Bo-Hsu Ke and Chun-Wei Tuan Mu and Yi-Chuan Huang and Chin-Yang Lin and Min-Hung Chen and Yen-Yu Lin and Yu-Lun Liu},
@@ -59,4 +59,4 @@ If you find our dataset, evaluation results, or code useful, please cite this pa
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2502.05176}, 
 }
-＇＇＇
+```
