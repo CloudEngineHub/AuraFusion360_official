@@ -1,7 +1,6 @@
 <p align="center">
 
-  <h2 align="center">AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360° Unbounded Scene Inpainting
-</h2>
+  <h2 align="center">AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360° Unbounded Scene Inpainting </h2>
   <p align="center">
     <a href="https://kkennethwu.github.io/"><strong>Chung-Ho Wu*</strong></a>
     ·
@@ -23,6 +22,7 @@
     ·
     <a href="https://sites.google.com/site/yylinweb/"><strong>Yen-Yu Lin</strong></a>
     <br>
+    ·
     <a href="https://yulunalexliu.github.io/"><strong>Yu-Lun Liu</strong></a>
     <br>
     <br>
@@ -41,3 +41,9 @@
     </td>
     </tr>
   </table>
+<p>
+
+## News
+* **[2025.2.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
+* 
+
