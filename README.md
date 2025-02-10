@@ -47,3 +47,16 @@
 * **[2025.2.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
 * **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
 
+## Citation
+If you find our dataset, evaluation results, or code useful, please cite this paper and give us a star⭐️
+＇＇＇
+@misc{wu2025aurafusion360augmentedunseenregion,
+      title={AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360{\deg} Unbounded Scene Inpainting}, 
+      author={Chung-Ho Wu and Yang-Jung Chen and Ying-Huan Chen and Jie-Ying Lee and Bo-Hsu Ke and Chun-Wei Tuan Mu and Yi-Chuan Huang and Chin-Yang Lin and Min-Hung Chen and Yen-Yu Lin and Yu-Lun Liu},
+      year={2025},
+      eprint={2502.05176},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.05176}, 
+}
+＇＇＇
