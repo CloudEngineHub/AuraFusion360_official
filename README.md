@@ -60,3 +60,6 @@ If you find our dataset, evaluation results, or code useful, please cite this pa
       url={https://arxiv.org/abs/2502.05176}, 
 }
 ```
+
+## Acknowledgements
+This work was supported by NVIDIA Taiwan AI Research & Development Center (TRDC).
