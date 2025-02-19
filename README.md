@@ -26,9 +26,10 @@
     <a href="https://yulunalexliu.github.io/"><strong>Yu-Lun Liu</strong></a>
     <br>
     <br>
-        <a href="http://arxiv.org/abs/2502.05176"><img src='https://img.shields.io/badge/arXiv-AuraFusion360-red' alt='Paper PDF'></a>
+        <a href="http://arxiv.org/abs/2502.05176"><img src='https://img.shields.io/badge/arXiv-2502.05176-red' alt='Paper PDF'></a>
         <a href='https://kkennethwu.github.io/aurafusion360/'><img src='https://img.shields.io/badge/Project_Page-AuraFusion360-green' alt='Project Page'></a>
-        <a href='https://drive.google.com/drive/folders/1C0OqUSavUBwR_p_yNRBia90jvC-23hNN?usp=sharing'><img src='https://img.shields.io/badge/Dataset-AuraFusion360-blue' alt='Project Page'></a>
+        <a href='https://drive.google.com/drive/folders/1C0OqUSavUBwR_p_yNRBia90jvC-23hNN?usp=sharing'><img src='https://img.shields.io/badge/Dataset-360USID-blue' alt='Project Page'></a>
+        <a href='https://huggingface.co/datasets/kkennethwu/360-USID'><img src='https://img.shields.io/badge/Dataset(HF)-360USID-blue' alt='Project Page'></a>
         <a href='https://drive.google.com/drive/folders/1C0OqUSavUBwR_p_yNRBia90jvC-23hNN?usp=sharing'><img src='https://img.shields.io/badge/Evaluation Results-AuraFusion360-orange' alt='Project Page'></a>
     <br>
     <b> NYCU |&nbsp;NVIDIA </b>
@@ -44,8 +45,15 @@
 <p>
 
 ## News
-* **[2025.2.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
+* **[2025.02.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
 * **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
+
+## Download 360-USID Dataset
+In addition to Google Drive, you can now download 360-USID with HuggingFace.
+```
+git lfs install
+git clone https://huggingface.co/datasets/kkennethwu/360-USID data/360-USID
+```
 
 ## Citation
 If you find our dataset, evaluation results, or code useful, please cite this paper and give us a ⭐️.
