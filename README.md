@@ -48,11 +48,11 @@
 * **[2025.02.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
 * **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
 
-## Download 360-USID Dataset
-In addition to Google Drive, you can now download 360-USID with HuggingFace.
+## Download Dataset
+In addition to Google Drive, the 360-USID (our dataset) and Other-360 (collected dataset) are now available for download via HuggingFace.
 ```
 git lfs install
-git clone https://huggingface.co/datasets/kkennethwu/360-USID data/360-USID
+git clone https://huggingface.co/datasets/kkennethwu/360-USID data
 ```
 
 ## Citation
