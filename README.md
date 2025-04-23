@@ -51,8 +51,8 @@
 ## Download Dataset
 In addition to Google Drive, the 360-USID (our dataset) and Other-360 (collected dataset) are now available for download via HuggingFace.
 ```
-git lfs install
-git clone https://huggingface.co/datasets/kkennethwu/360-USID data
+huggingface-cli login
+huggingface-cli download kkennethwu/360-USID --repo-type dataset --local-dir ./data --resume-download --quiet --max-workers 32
 ```
 
 ## Citation
