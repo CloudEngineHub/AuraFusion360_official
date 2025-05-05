@@ -48,12 +48,35 @@
 * **[2025.02.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
 * **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
 
-## Download Dataset
+## Get Started
+### Environment Setup
+```
+git clone https://github.com/kkennethwu/AuraFusion360_official.git --recursive
+export HF_TOKEN=<your hf home>
+export HF_HOME=<your hf token>
+source install.sh
+```
+
+### Download Dataset
 In addition to Google Drive, the 360-USID (our dataset) and Other-360 (collected dataset) are now available for download via HuggingFace.
 ```
 huggingface-cli login
 huggingface-cli download kkennethwu/360-USID --repo-type dataset --local-dir ./data --resume-download --quiet --max-workers 32
 ```
+
+### Running
+#### 1. Training Object-Masked Gaussians
+```
+python train.py --config configs/{dataset_name}/{scene_name}/train.config
+python render.py -s data/{dataset_name}/{scene_name} -m output/{dataset_name}/{scene_name} --skip_mesh --render_path --iteration 30000
+```
+#### 2. Removing Objects & Generating Unseen Masks
+```
+python remove.py --config configs/{dataset_name}/{scene_name}/remove.config
+python utils/sam2_utils.py --dataset {dataset_name} --scene {scene_name}
+```
+#### 3. Unproject & Inpaint
+Ongoing
 
 ## Citation
 If you find our dataset, evaluation results, or code useful, please cite this paper and give us a ⭐️.
