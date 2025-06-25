@@ -74,6 +74,8 @@ python render.py -s data/{dataset_name}/{scene_name} -m output/{dataset_name}/{s
 ```
 python remove.py --config configs/{dataset_name}/{scene_name}/remove.config
 python utils/sam2_utils.py --dataset {dataset_name} --scene {scene_name}
+# python scripts/visualize_mask.py --dataset {dataset_name} --scene {scene_name} --type mask # (optional) 
+# python scripts/visualize_mask.py --dataset {dataset_name} --scene {scene_name} --type contour # (optional)
 ```
 #### 3. Unproject & Inpaint
 Ongoing
