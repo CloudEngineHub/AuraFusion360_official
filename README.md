@@ -78,7 +78,12 @@ python utils/sam2_utils.py --dataset {dataset_name} --scene {scene_name}
 # python scripts/visualize_mask.py --dataset {dataset_name} --scene {scene_name} --type contour # (optional)
 ```
 #### 3. Unproject & Inpaint
-Ongoing
+```
+python inpaint.py --config configs/$dataset_name/$scene_name/inpaint.config
+python utils/LeftRefill/sdedit_utils.py --config configs/$dataset_name/$scene_name/sdedit.config 
+python inpaint.py --config configs/$dataset_name/$scene_name/inpaint.config --images inpaint --finetune_iteration 10000
+```
+
 
 ## Citation
 If you find our dataset, evaluation results, or code useful, please cite this paper and give us a ⭐️.
