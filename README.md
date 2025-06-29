@@ -88,14 +88,13 @@ python inpaint.py --config configs/$dataset_name/$scene_name/inpaint.config --im
 ## Citation
 If you find our dataset, evaluation results, or code useful, please cite this paper and give us a ⭐️.
 ```BibTex
-@misc{wu2025aurafusion360augmentedunseenregion,
-      title={AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360{\deg} Unbounded Scene Inpainting}, 
-      author={Chung-Ho Wu and Yang-Jung Chen and Ying-Huan Chen and Jie-Ying Lee and Bo-Hsu Ke and Chun-Wei Tuan Mu and Yi-Chuan Huang and Chin-Yang Lin and Min-Hung Chen and Yen-Yu Lin and Yu-Lun Liu},
-      year={2025},
-      eprint={2502.05176},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2502.05176}, 
+@InProceedings{wu2025aurafusion,
+    author    = {Wu, Chung-Ho and Chen, Yang-Jung and Chen, Ying-Huan and Lee, Jie-Ying and Ke, Bo-Hsu and Mu, Chun-Wei Tuan and Huang, Yi-Chuan and Lin, Chin-Yang and Chen, Min-Hung and Lin, Yen-Yu and Liu, Yu-Lun},
+    title     = {AuraFusion360: Augmented Unseen Region Alignment for Reference-based 360deg Unbounded Scene Inpainting},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
+    month     = {June},
+    year      = {2025},
+    pages     = {16366-16376}
 }
 ```
 
