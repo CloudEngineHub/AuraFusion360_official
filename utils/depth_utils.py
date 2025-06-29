@@ -29,7 +29,7 @@ def estimate_depth_marigold(rgb: torch.Tensor):
     return depth
 
 # ==============================
-# AGDDv2 
+# AGDD: Adaptive Guided Depth Diffusion
 # ==============================
 def normalize_depth_ignore_zeros(depth_tensor, min_val=None, max_val=None):
     """
@@ -90,7 +90,7 @@ def align_depth_agdd_v2(depth, rgb, mask, opt, seed=7777, tb_writer=None):
         align_depth: (1, H, W)
     """
     
-    # IMPORTANT: bfloat16 tends to predict unsmooth align depth, so we use float16 instead
+    # IMPORTANT NOTE: bfloat16 tends to predict unsmooth align depth, so we use float16 instead
     pipe = AGDDv2.from_pretrained(
         "prs-eth/marigold-v1-0", variant="fp16", torch_dtype=torch.float16
     ).to("cuda")
@@ -118,9 +118,9 @@ def align_depth_agdd_v2(depth, rgb, mask, opt, seed=7777, tb_writer=None):
     print(depth)
     print(unnormalize_align_depth)
     print(f"""
-\033[93m#########final alignment error#########\033[0m
-{torch.abs(unnormalize_align_depth[mask == 0] - depth[mask == 0]).mean().item()}
-\033[93m#########final alignment error#########\033[0m
+        \033[93m#########final alignment error#########\033[0m
+        {torch.abs(unnormalize_align_depth[mask == 0] - depth[mask == 0]).mean().item()}
+        \033[93m#########final alignment error#########\033[0m
     """)
     
     return unnormalize_align_depth

@@ -35,18 +35,10 @@ from tqdm import tqdm
 from arguments import ModelParams, OptimizationParams, PipelineParams, get_combined_args
 from gaussian_renderer import GaussianModel, render
 from scene import Scene
-from utils.depth_utils import (
-    align_depth_marigold,
-    estimate_depth_marigold,
-)
+from utils.depth_utils import estimate_depth_marigold
 from utils.general_utils import colormap
 from utils.image_utils import masked_psnr, psnr
 from utils.loss_utils import l1_loss, ssim
-from utils.marigold_depth_inpaint_utils import (
-    MarigoldDepthInpaintPipeline,
-    normalize_depth_ignore_zeros,
-    unnormalize_depth_ignore_zeros,
-)
 from utils.mesh_utils import GaussianExtractor, post_process_mesh
 from utils.render_utils import create_videos, generate_path
 from utils.warping_utils import unproject, voxel_downsample

@@ -16,6 +16,7 @@
 # More information and citation instructions are available on the
 # Marigold project website: https://marigoldmonodepth.github.io
 # --------------------------------------------------------------------------
+
 import bitsandbytes as bnb
 import torch
 from diffusers import MarigoldDepthPipeline
@@ -275,7 +276,7 @@ class AGDDv2(MarigoldDepthPipeline):
                     if opt.use_renoise and i >= opt.renoise_start_iter and i < num_inference_steps - 1 and i % opt.renoise_step == 0:
                         latents_to_average = []
                         current_batch_pred_latent = batch_pred_latent.detach().clone() # timestep t - 1, renoise iter: m - 1
-                        for m in range(opt.infer_iter): # IMPORTANT: if reference image has more details, set infer_iter larger, which use noise to adujust the error caused by latent optimization.
+                        for m in range(opt.infer_iter): # IMPORTANT NOTE: if reference image has more details, set infer_iter larger, which use noise to adujust the distribution shift caused by latent optimization.
                             # 1. add noise
                             noise = randn_tensor(
                                 current_batch_pred_latent.shape, 

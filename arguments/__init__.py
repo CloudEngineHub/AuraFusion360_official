@@ -131,9 +131,15 @@ class OptimizationParams(ParamGroup):
         self.optimize_iter = 8 # the number of iterations for latent optimization in each denoise step
         self.dilate_iter = 5 # the number of iterations for morphological dilation of the mask
         self.kernel_size = 3 # the size of the kernel for morphological dilation
-        self.infer_iter = 1
+        
         self.not_adaptive = False
-        self.dc_method = 'agdd'
+        self.dc_method = 'agddv2'
+        self.use_renoise = True
+        self.agdd_lr = 0.01
+        self.agdd_loss_scale = 10000
+        self.renoise_start_iter = 30
+        self.renoise_step = 1
+        self.infer_iter = 1
         
         # For view selection
         self.view_selection = False

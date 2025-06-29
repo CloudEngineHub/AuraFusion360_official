@@ -17,6 +17,9 @@
 # More information about the method can be found at https://marigoldmonodepth.github.io
 # --------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------
+# modiy testing code of GDD(Guided Depth Diffusion) from https://github.com/KovenYu/WonderWorld.git
+# --------------------------------------------------------------------------
 
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Tuple, Union
