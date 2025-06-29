@@ -301,7 +301,7 @@ if __name__ == "__main__":
         mask_root = f"data/{dataset_name}/{scene_name}/unseen_masks_dilated"
         output_root = f"data/{dataset_name}/{scene_name}/inpaint"
         
-        output_root = output_root +  f'{strength}'
+        output_root = output_root
         os.makedirs(output_root, exist_ok=True)
         if strength == 1:
             strength = None # means no sdedit
