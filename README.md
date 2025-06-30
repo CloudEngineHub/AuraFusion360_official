@@ -30,7 +30,7 @@
         <a href='https://kkennethwu.github.io/aurafusion360/'><img src='https://img.shields.io/badge/Project_Page-AuraFusion360-green' alt='Project Page'></a>
         <a href='https://drive.google.com/drive/folders/1C0OqUSavUBwR_p_yNRBia90jvC-23hNN?usp=sharing'><img src='https://img.shields.io/badge/Dataset-360USID-blue' alt='Project Page'></a>
         <a href='https://huggingface.co/datasets/kkennethwu/360-USID'><img src='https://img.shields.io/badge/Dataset(HF)-360USID-blue' alt='Project Page'></a>
-        <a href='https://drive.google.com/drive/folders/1C0OqUSavUBwR_p_yNRBia90jvC-23hNN?usp=sharing'><img src='https://img.shields.io/badge/Evaluation Results-AuraFusion360-orange' alt='Project Page'></a>
+        <a href='https://drive.google.com/drive/folders/1ujTKiBfTBD_BVv9YiifOl_SfG8sd0dZ6'><img src='https://img.shields.io/badge/Evaluation Results-AuraFusion360-orange' alt='Project Page'></a>
     <br>
     <b> NYCU |&nbsp;NVIDIA </b>
   </p>
@@ -48,6 +48,7 @@
 * **[2025.02.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
 * **[2025.02.27]** Accepted by CVPR 2025!
 * **[2025.06.29]** Release Full Code.
+* **[2025.06.30]** All AuraFusion360 results are now available on [HuggingFace](https://huggingface.co/datasets/kkennethwu/AuraFusion360_Results). Note that these results may differ slightly from the paper. For the complete evaluation results and other baseline methods presented in the paper, please refer to [here](https://drive.google.com/drive/folders/1ujTKiBfTBD_BVv9YiifOl_SfG8sd0dZ6).
 
 ## Get Started
 ### Environment Setup
