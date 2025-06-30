@@ -46,7 +46,8 @@
 
 ## News
 * **[2025.02.10]** <img src="assets/Figures/favicon.svg" alt="icon" style="height: 1em; vertical-align: -0.5mm;"> Release project page, arXiv paper, dataset, and evaluation results!
-* **[Ongoing]** Release Code for training object-masked GS, removal, AGDD Gaussians initilaization, SDEdit Detail Enhancement, finetuning.
+* **[2025.02.27]** Accepted by CVPR 2025!
+* **[2025.06.29]** Release Full Code.
 
 ## Get Started
 ### Environment Setup
