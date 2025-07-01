@@ -102,3 +102,6 @@ If you find our dataset, evaluation results, or code useful, please cite this pa
 
 ## Acknowledgements
 This work was supported by NVIDIA Taiwan AI Research & Development Center (TRDC).
+This research was funded by the National Science and Technology Council, Taiwan, 
+under Grants NSTC 112-2222-E-A49-004-MY2 and 113-2628-E-A49-023-. 
+Yu-Lun Liu acknowledges the Yushan Young Fellow Program by the MOE in Taiwan.
