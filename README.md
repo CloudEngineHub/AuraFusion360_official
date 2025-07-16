@@ -54,8 +54,8 @@
 ### Environment Setup
 ```
 git clone https://github.com/kkennethwu/AuraFusion360_official.git --recursive
-export HF_TOKEN=<your hf home>
-export HF_HOME=<your hf token>
+export HF_TOKEN=<your hf token>
+export HF_HOME=<your hf home>
 source install.sh
 ```
 
